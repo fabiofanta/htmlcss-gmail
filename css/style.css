@@ -34,7 +34,7 @@ body {
 .white {
     background: white;
 }
-.counter div{
+span {
     display: inline-block;
     color: white;
     font-size: 25px;
@@ -44,7 +44,7 @@ body {
 border-radius: 50%;
 background: orange;
 font-weight: 600;
-padding: 7px;
+padding: 6px;
 }
 
 footer {
@@ -64,11 +64,12 @@ button {
     padding: 0px 20px;
 
 }
-.f-italic {
+#f-italic {
     font-style: italic;
     display: inline-block;
+    font-size: 20px;
 }
-.f-bold {
+#f-bold {
     font-size: 20px;
     font-weight: bold;
     display: inline-block;
